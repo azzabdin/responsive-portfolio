@@ -1,0 +1,103 @@
+
+
+*{box-sizing: border-box}
+.body {width: 960px;margin-left: 80px;background-color: #ffffff }
+
+header {background-color:#ffffff ;
+    position: relative;
+    border-color: #cccccc;
+margin:10px;
+padding: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {background-color: #4aaaa5; 
+    padding: 30px;
+    position: absolute;
+    bottom :-18px;
+    left:0px ;
+    
+ }
+ h2 {float: right;}
+ img{width:250px ;
+height: 250px;
+float: left;
+margin: 10px;
+ }
+h3 {background-color: #ffffff;
+margin-top: 20px;
+border-bottom: gray
+;padding: 50px;
+color:#4aaaa5;font-size: 30px;
+margin-bottom: 2px}
+div {float: left;
+background-color: #ffffff}
+div1 {margin-left:30px ;
+font-family: Arial, Helvetica, sans-serif}
+.pos{position: relative;}
+form {border-style: solid;width: 960px;
+height: 260px;background-color: white ;margin-top: 20px;}
+
+    
+
+
+.im1 {position: relative;}
+.im2{position: absolute;top:790px;}
+.im3{position: absolute;top: 540px;}
+
+footer {background-color: black;
+text-align: center;padding-bottom: 50px; color: white;
+margin-bottom:  25px;border-style: solid;
+border-top-width: 10px;
+border-top-color: #4aaaa5;
+position: absolute; 
+top:600px;width: 1100px}
+
+.fot {margin-top: 35px;position: absolute;top: 440px;}
+
+
+    @media screen and (max-width:980px){
+        body{background-color: yellow;
+            margin: auto;
+            padding: auto;}
+        header {margin:auto; 
+            width: auto;
+            padding: auto;
+        font-size: auto;}
+        form {width: auto;
+            margin: auto;}
+        
+    footer{background-color: grey;
+    width: 400px; ;margin-top: 30px;}
+    
+    .im1{margin:auto ;resize:auto; position: relative; }
+    .im2{margin:auto ;resize: auto; position: absolute;
+top: 800px;}
+        
+    }
+@media screen and (max-width:768px){
+    body {background-color: blue; 
+        font-size: auto ;width: auto;
+        margin: auto; }
+        header {margin: auto;
+        padding: auto;
+    font-size: auto;
+width: auto}
+form {width: auto;
+    margin: auto;}
+    footer {margin-bottom: 25px;width: 768px;}
+
+}
+@media screen and (max-width:640px){
+    body {background-color: green;
+        margin: auto ;
+        width: auto}
+        header{width: auto;
+        margin: auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size-adjust:auto;}
+
+    form {width: auto;
+        margin: auto;}
+        footer {margin-top:  160px;width: 640px }
+        .fot {top: 300px ;width:640px}
+}
