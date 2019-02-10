@@ -1,8 +1,6 @@
 
-
-*{box-sizing: border-box}
-.body {width: 960px;margin-left: 80px;background-color: #ffffff }
-
+html{background-color: grey;}
+.body {width: 960px ;margin-left: 50px;background-color: #ffffff }
 header {background-color:#ffffff ;
     position: relative;
     border-color: #cccccc;
@@ -50,12 +48,13 @@ margin-bottom:  25px;border-style: solid;
 border-top-width: 10px;
 border-top-color: #4aaaa5;
 position: absolute; 
-top:600px;width: 1100px}
+top:600px;width: 1160px}
 
 .fot {margin-top: 35px;position: absolute;top: 440px;}
 
 
     @media screen and (max-width:980px){
+        html {background-color: yellow }
         body{background-color: yellow;
             margin: auto;
             padding: auto;}
@@ -67,7 +66,7 @@ top:600px;width: 1100px}
             margin: auto;}
         
     footer{background-color: grey;
-    width: 400px; ;margin-top: 30px;}
+    width: 980; ;margin-top: 30px;}
     
     .im1{margin:auto ;resize:auto; position: relative; }
     .im2{margin:auto ;resize: auto; position: absolute;
@@ -75,6 +74,7 @@ top: 800px;}
         
     }
 @media screen and (max-width:768px){
+    html {background-color: blue;}
     body {background-color: blue; 
         font-size: auto ;width: auto;
         margin: auto; }
@@ -84,10 +84,11 @@ top: 800px;}
 width: auto}
 form {width: auto;
     margin: auto;}
-    footer {margin-bottom: 25px;width: 768px;}
+    footer {margin-bottom: 25px;width: 658px;}
 
 }
 @media screen and (max-width:640px){
+    html{background-color: green;}
     body {background-color: green;
         margin: auto ;
         width: auto}
@@ -95,9 +96,10 @@ form {width: auto;
         margin: auto;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size-adjust:auto;}
-
+        h1 {padding:20px ;}
+h2 {position: relative;left: 43px ;}
     form {width: auto;
         margin: auto;}
-        footer {margin-top:  160px;width: 640px }
+        footer {margin-top:  160px;width: 400px }
         .fot {top: 300px ;width:640px}
 }
